@@ -99,8 +99,14 @@
   action="https://formspree.io/f/myylyjvw"
   method="POST"
         <input type="hidden" name="_subject" value="Contact request from personal website" />
-        <input type="email" name="_replyto" placeholder="Your email" required>
-        <textarea name="message" placeholder="Type here - indicate the item number and amount" required></textarea>
+        <label>
+          Your email:
+          <input type="email" name="_replyto" placeholder="Your email" required>
+		    </label>
+	 <label>
+          Your bid (indicate item and amount):	    
+        <textarea name="message" placeholder="Type your bid here - indicate the item # and amount" required></textarea>
+		    </label>
         <button type="submit">Send</button>
             </form>
 
